@@ -1,0 +1,32 @@
+name: 'Claude PR Review'
+description: 'Automated PR code review using Claude AI — finds bugs, security issues, and logic errors'
+author: 'icgriggs14'
+
+branding:
+  icon: 'eye'
+  color: 'orange'
+
+inputs:
+  anthropic_api_key:
+    description: 'Anthropic API key (store in GitHub Secrets as ANTHROPIC_API_KEY)'
+    required: true
+  model:
+    description: 'Claude model to use (haiku=fast+cheap, sonnet=deeper analysis)'
+    required: false
+    default: 'claude-haiku-4-5-20251001'
+  max_files:
+    description: 'Maximum number of changed files to review per PR (keeps costs predictable)'
+    required: false
+    default: '10'
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Review PR with Claude
+      shell: bash
+      env:
+        INPUT_ANTHROPIC_API_KEY: ${{ inputs.anthropic_api_key }}
+        INPUT_MODEL: ${{ inputs.model }}
+        INPUT_MAX_FILES: ${{ inputs.max_files }}
+        GITHUB_TOKEN: ${{ github.token }}
+      run: ${{ github.action_path }}/review.sh
