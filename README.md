@@ -85,4 +85,18 @@ Found a bug or want a feature? [Open an issue](https://github.com/icgriggs14/cla
 
 ---
 
+## Related tools
+
+Part of the **claude autonomous-rail suite** — AI-powered developer tools that run entirely in GitHub Actions:
+
+- [**claude-changelog-action**](https://github.com/icgriggs14/claude-changelog-action) — Auto-generate changelogs & release notes from git history
+- [**claude-test-writer**](https://github.com/icgriggs14/claude-test-writer) — Auto-generate unit tests for every PR
+- **claude-pr-review** — AI code review on every PR (this repo)
+
+**npm CLI companions** (coming soon to npm):
+- `npx claude-pr-review` — run PR review from the command line
+- `npx claude-commit` — AI-powered conventional commit messages
+
+---
+
 Built with [Claude Code](https://claude.ai/code). MIT License.
