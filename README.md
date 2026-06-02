@@ -83,6 +83,13 @@ If this saves you review time, consider [sponsoring on GitHub](https://github.co
 
 Found a bug or want a feature? [Open an issue](https://github.com/icgriggs14/claude-pr-review/issues).
 
+## Related tools
+
+- **[claude-pr-review CLI](https://github.com/icgriggs14/claude-pr-review-cli)** — npm CLI companion: `npx claude-pr-review` runs the same review locally before you push. Works with any git repo, no GitHub required.
+- **[claude-commit](https://github.com/icgriggs14/claude-commit)** — `npx claude-commit` reads your staged diff → Claude Haiku → perfect conventional commit message in seconds.
+- **[claude-changelog-action](https://github.com/icgriggs14/claude-changelog-action)** — Auto-generate changelogs on every release via GitHub Actions.
+- **[claude-test-writer](https://github.com/icgriggs14/claude-test-writer)** — Generate unit tests for uncovered files via GitHub Action or `npx claude-test-writer`.
+
 ---
 
 ## Related tools
