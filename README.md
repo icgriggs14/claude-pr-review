@@ -107,3 +107,16 @@ Part of the **claude autonomous-rail suite** — AI-powered developer tools that
 ---
 
 Built with [Claude Code](https://claude.ai/code). MIT License.
+
+
+## Other Claude AI Tools
+
+These companion tools from the same author work great together:
+
+- **[claude-changelog-action](https://github.com/icgriggs14/claude-changelog-action)** — Auto-generate changelogs from commits using Claude
+- **[claude-test-writer](https://github.com/icgriggs14/claude-test-writer)** — AI unit test generation CLI + GitHub Action
+- **[react-doctor-action](https://github.com/icgriggs14/react-doctor-action)** — CI health checks for React projects
+- **[knip-action](https://github.com/icgriggs14/knip-action)** — CI enforcement for knip unused-exports detection
+- **[secretlint-action](https://github.com/icgriggs14/secretlint-action)** — CI credential leak detection using secretlint
+
+[Sponsor this work on GitHub Sponsors](https://github.com/sponsors/icgriggs14)
