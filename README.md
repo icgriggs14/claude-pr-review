@@ -2,6 +2,7 @@
 
 [![GitHub release](https://img.shields.io/github/v/release/icgriggs14/claude-pr-review)](https://github.com/icgriggs14/claude-pr-review/releases)
 [![GitHub Marketplace](https://img.shields.io/badge/marketplace-claude--pr--review-blue?logo=github)](https://github.com/marketplace/actions/claude-pr-review)
+[![GitHub Stars](https://img.shields.io/github/stars/icgriggs14/claude-pr-review?style=social)](https://github.com/icgriggs14/claude-pr-review)
 
 Automated PR code review using Claude AI. Every pull request gets an AI review that finds bugs, security issues, and logic errors before they merge — in under 30 seconds.
 
